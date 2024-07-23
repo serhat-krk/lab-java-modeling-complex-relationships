@@ -9,6 +9,7 @@ import java.util.List;
 
 @Data
 @NoArgsConstructor
+@MappedSuperclass
 public abstract class Event {
 
     // properties

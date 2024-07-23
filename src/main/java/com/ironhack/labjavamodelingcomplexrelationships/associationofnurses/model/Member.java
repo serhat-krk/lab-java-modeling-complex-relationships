@@ -10,7 +10,7 @@ import java.time.LocalDate;
 @Entity
 @Data
 @NoArgsConstructor
-@Table (name = "chapters")
+@Table (name = "members")
 public class Member {
 
     // properties

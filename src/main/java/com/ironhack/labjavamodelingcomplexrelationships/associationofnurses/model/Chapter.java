@@ -27,7 +27,7 @@ public class Chapter {
     private Member president;
 
     @OneToMany
-    @Column (name = "members")
+    @JoinColumn (name = "members")
     private List<Member> list;
 
     public Chapter(String name, String district, Member president) {
